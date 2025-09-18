@@ -8,6 +8,22 @@
 //   toCamelCase('user_id')          → 'userId'
 //   toCamelCase('SCREEN_NAME')      → 'screenName'
 //   toCamelCase('mobile-number')    → 'mobileNumber'
+// console.log(toCamelCase('user_id')); // 'userId'
+// console.log(toCamelCase('SCREEN_NAME')); // 'screenName'
+// console.log(toCamelCase('mobile-number')); // 'mobileNumber'
+// toCamelCase(123); // throws Error
+// Write a JavaScript function toCamelCase that converts a string to camelCase.
+// Requirements:
+// - Handle spaces, underscores, hyphens, and mixed casing as word separators
+// - Ignore non-alphanumeric characters except as word separators
+// - If input is not a string, throw an error with a descriptive message
+// - If input is an empty string, return an empty string
+// Examples:
+//   toCamelCase('first name')       → 'firstName'
+//   toCamelCase('user_id')          → 'userId'
+//   toCamelCase('SCREEN_NAME')      → 'screenName'
+//   toCamelCase('mobile-number')    → 'mobileNumber'
+//   toCamelCase(123)                → should throw an error
 
 function toCamelCase(str) {
 	if (typeof str !== 'string') {

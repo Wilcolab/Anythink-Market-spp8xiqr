@@ -2,9 +2,9 @@
 // For example, toCamelCase('hello world') should return 'helloWorld'.
 
 function toCamelCase(str) {
-	return str
-		.toLowerCase()
-		.replace(/[^a-zA-Z0-9]+(.)/g, (match, chr) => chr.toUpperCase());
+  return str
+    .toLowerCase()
+    .replace(/\s+(.)/g, (match, chr) => chr.toUpperCase());
 }
 
 // Example usage:

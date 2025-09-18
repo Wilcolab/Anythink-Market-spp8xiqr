@@ -1,12 +1,1 @@
-// Make a function to convert text to snake case
-
-function toSnakeCase(str) {
-	return str
-		.replace(/([a-z])([A-Z])/g, '$1_$2')
-		.replace(/\s+|-/g, '_')
-		.toLowerCase();
-}
-
-// Example usage:
-// console.log(toSnakeCase('Hello World')); // 'hello_world'
-// console.log(toSnakeCase('userId')); // 'user_id'
+// Convert a string to snake_case.

@@ -1,10 +1,6 @@
 // Write a JavaScript function toCamelCase that converts strings to camelCase.
-// Here are some examples:
-//   first name       → firstName
-//   user_id          → userId
-//   SCREEN_NAME      → screenName
-//   mobile-number    → mobileNumber
-// Implement the function to handle these cases.
+// Example 1: toCamelCase('first name') should return 'firstName'
+// Example 2: toCamelCase('user_id') should return 'userId'
 
 function toCamelCase(str) {
 	return str
@@ -16,5 +12,3 @@ function toCamelCase(str) {
 // Example usage:
 // console.log(toCamelCase('first name')); // 'firstName'
 // console.log(toCamelCase('user_id')); // 'userId'
-// console.log(toCamelCase('SCREEN_NAME')); // 'screenName'
-// console.log(toCamelCase('mobile-number')); // 'mobileNumber'
